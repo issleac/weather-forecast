@@ -1,0 +1,775 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="mobile-agent" content="format=xhtml; url=https://m.40tianqi.cn/shanghai">
+<title>上海天气预报40天|上海天气预报40天查询 - 天气预报40天</title>
+<meta name="keywords" content="上海天气预报40天，上海天气预报40天查询" />
+<meta name="description" content="上海天气预报40天，上海天气气温，气压，相对湿度，降水量预报查询" />
+<link href="/css.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+/*第一种形式 第二种形式 更换显示样式*/
+function setTab(name,cursel,n){
+for(i=0;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"ar_over":"";
+con.style.display=i==cursel?"block":"none";
+}
+
+}
+function sss(o){
+    o.className =o.className =="ar_over"?"0":"ar_over";
+}
+var GO = function(elemId){
+	return document.getElementById(elemId);
+}
+function menu(mid,idx){
+	class_name = 'menu_0' + idx;	
+	GO("m_"+mid+"_"+idx).className = class_name + ' on';
+	GO("c_"+mid+"_"+idx).style.display = "";
+	for(var i=1;i<9;i++){
+		class_name = 'menu_0' + i;	
+		if(!GO("m_"+mid+"_"+i)) continue;
+		if(i != idx){
+			GO("m_"+mid+"_"+i).className = class_name;
+			GO("c_"+mid+"_"+i).style.display = "none";
+		}
+	}
+}
+        function addFavorite2() {
+            var url = window.location || 'https://www.40tianqi.cn:443';
+            var title = document.title;
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.indexOf("360se") > -1) {
+                alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+            }
+            else if (ua.indexOf("msie 8") > -1) {
+                window.external.AddToFavoritesBar(url, title); //IE8
+            }
+            else if (document.all) {
+                try{
+                    window.external.addFavorite(url, title);
+                }catch(e){
+                    alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+                }
+            }
+            else if (window.sidebar) {
+                window.sidebar.addPanel(title, url, "");
+            }
+            else {
+                alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+            }
+        }
+        //设为首页
+        function SetHome(obj,url){
+            try{
+                //IE
+                obj.style.behavior='url(#default#homepage)';
+                obj.setHomePage(url);
+            }catch(e){
+                //Firefox
+                if(window.netscape) {
+                    try {
+                        netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                    }catch (e) {
+                        alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                    }
+                    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                    prefs.setCharPref('browser.startup.homepage',url);
+                }else{
+                    alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+url+"点击确定。");
+                }
+            }
+        }
+    </script>
+</head><body><div id="banner">
+  <div id="logo"><a href="/"><img src="/Images/logo.gif" border="0/" alt="天气预报40天"/></a></div>
+  <div class="ban_ad"></div>
+  <div class="banner_tel">
+    <div id="tobt">
+      <div class="btn"><a href="javascript:void(0)" onClick="javascript:addFavorite2()/" title="天气预报40天" ><img src="/Images/soc.gif" style="VERTICAL-ALIGN: middle" border="0" /> 加入收藏</a><a onClick="SetHome(this,'https://www.40tianqi.cn:443')" href="javascript:void(0)"><img src="/Images/zuy.gif" style="VERTICAL-ALIGN: middle" border="0" /> 设为首页</a></div>
+    </div>
+  </div>
+</div><div id="menu"> <a href="/">首页</a><a href="/guoji/">国际天气</a> <a href="/jingdian/">景点天气</a> <a href="/news-1/">天气资讯</a><a href="/news-3/">气象课堂</a><a href="/news-2/">旅游攻略</a></div><div id="dqwz" style="height:auto;">
+  <div class="weiz"><b>当前位置：</b><a href="/">天气预报40天</a> 
+><b>上海天气预报40天</b> <div class="city_c">
+      <form name="search" action="/?action=Cha" method="post">
+        <table  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td ><input name="value" type="text" class="ctc" value="输入地名、拼音均可" onFocus="javascript:if(this.value=='输入地名、拼音均可')this.value='';"/></td>
+            <td ><input type="image" name="imageField2" src="/Images/city_bt.gif" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</div><div id="hot"><b>热门搜索:</b>
+ <a href="https://www.40tianqi.cn:443/shanghai/" title="上海天气预报40天" target="_blank">上海</a>
+ <a href="https://www.40tianqi.cn:443/beijing/" title="北京天气预报40天" target="_blank">北京</a>
+ <a href="https://www.40tianqi.cn:443/jinan/" title="济南天气预报40天" target="_blank">济南</a>
+ <a href="https://www.40tianqi.cn:443/shanxixian/" title="西安天气预报40天" target="_blank">西安</a>
+ <a href="https://www.40tianqi.cn:443/zhengzhou/" title="郑州天气预报40天" target="_blank">郑州</a>
+ <a href="https://www.40tianqi.cn:443/wuhan/" title="武汉天气预报40天" target="_blank">武汉</a>
+ <a href="https://www.40tianqi.cn:443/hefei/" title="合肥天气预报40天" target="_blank">合肥</a>
+ <a href="https://www.40tianqi.cn:443/tianjin/" title="天津天气预报40天" target="_blank">天津</a>
+ <a href="https://www.40tianqi.cn:443/guangzhou/" title="广州天气预报40天" target="_blank">广州</a>
+ <a href="https://www.40tianqi.cn:443/haerbin/" title="哈尔滨天气预报40天" target="_blank">哈尔滨</a>
+ <a href="https://www.40tianqi.cn:443/hangzhou/" title="杭州天气预报40天" target="_blank">杭州</a>
+ <a href="https://www.40tianqi.cn:443/changshashi/" title="长沙天气预报40天" target="_blank">长沙</a>
+ <a href="https://www.40tianqi.cn:443/changchun/" title="长春天气预报40天" target="_blank">长春</a>
+ <a href="https://www.40tianqi.cn:443/jiangsuwuxi/" title="无锡天气预报40天" target="_blank">无锡</a>
+ <a href="https://www.40tianqi.cn:443/qingdao/" title="青岛天气预报40天" target="_blank">青岛</a>
+ <a href="https://www.40tianqi.cn:443/chongqing/" title="重庆天气预报40天" target="_blank">重庆</a>
+ <a href="https://www.40tianqi.cn:443/shandonglinyi/" title="临沂天气预报40天" target="_blank">临沂</a>
+ <a href="https://www.40tianqi.cn:443/xinjiangwulumuqi/" title="乌鲁木齐天气预报40天" target="_blank">乌鲁木齐</a>
+ <a href="https://www.40tianqi.cn:443/jilin/" title="吉林天气预报40天" target="_blank">吉林</a>
+ <a href="https://www.40tianqi.cn:443/zhumadian/" title="驻马店天气预报40天" target="_blank">驻马店</a>
+</div><div id="wrap" >
+  <div id="bdl" >
+    <div id="tqcs">
+      <div class="lh">
+        <div class="lh_l">
+          <div class="lh_tt">
+            <h3>上海实时天气预报</h3>
+          </div>
+        </div>
+      </div>
+      <div class="xzsf_t"></div>
+      <div class="xzsf_con">
+        <div class="city_p">
+          <div class="ct_p"><img src="https://www.40tianqi.cn:443/Images/Uploads/city/101020100m.jpg"  height="150"  border="0" alt="上海" /></div>
+          <div class="ct_t">上海<span>(shanghai)
+2000
+</span></div>
+          <div class="ct_ty"></div>
+        </div>
+        <div class="city_cs">
+          <div class="shik"><b>上海天气实况:</b>11:59</div>
+          <div class="qiwen">24℃</div>
+          <div class="cs_o"><b>湿度</b><span>60%</span></div>
+          <div class="cs_o"><b>气压&nbsp;&nbsp;</b><span>hPa</span></div>
+          <div class="cs_o"><b>风向</b><span>西南风 </span></div>
+          <div class="cs_o"><b>风速</b><span>4-5级转小于3级</span></div>
+          <div class="cs_ty"></div>
+        </div>
+        <!--广告-->
+        <div style="clear:both"></div>
+      </div>
+      <div class="xzsf_b"></div>
+    </div>
+    <div id="w_report">
+      <div class="lh">
+        <div class="lh_l">
+          <div class="lh_tt">
+            <h3>上海未来40天气预报</h3>
+          </div>
+        </div>
+      </div>
+      <div class="xzsf_t"></div>
+      <div class="xzsf_con">
+        <div class="rp_in">
+          <table width="100%" border="0" cellspacing="1" cellpadding="1">
+            <tr>
+              <th>日期</th>
+              <th>星期</th>
+              <th  colspan="2">天气现象</th>
+              <th>气温</th>
+              <th>风向</th>
+              <th>风力</th>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月15<span>日</span></div></td>
+              <td><div class="xqi">周四</div></td>
+              <td><img src="/Images/weather/d07.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>小雨转多云</td>
+              <td>22°C~26°C</td>
+              <td>西南风</td>
+              <td>4-5级转小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月16<span>日</span></div></td>
+              <td><div class="xqi">周五</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>多云</td>
+              <td>23°C~30°C</td>
+              <td>东南风转北风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月17<span>日</span></div></td>
+              <td><div class="xqi">周六</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>多云转阴</td>
+              <td>24°C~30°C</td>
+              <td>北风</td>
+              <td>3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月18<span>日</span></div></td>
+              <td><div class="xqi">周日</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>晴转多云</td>
+              <td>23°C~30°C</td>
+              <td>北风</td>
+              <td>4-5级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月19<span>日</span></div></td>
+              <td><div class="xqi">周一</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>23°C~28°C</td>
+              <td>北风</td>
+              <td>5-6级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月20<span>日</span></div></td>
+              <td><div class="xqi">周二</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>阴转多云</td>
+              <td>21°C~27°C</td>
+              <td>北风</td>
+              <td>5-6级转4-5级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月21<span>日</span></div></td>
+              <td><div class="xqi">周三</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n00.gif" width="25" height="25" /></td>
+              <td>阴转晴</td>
+              <td>21°C~26°C</td>
+              <td>北风</td>
+              <td>5-6级转4-5级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月22<span>日</span></div></td>
+              <td><div class="xqi">周四</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n00.gif" width="25" height="25" /></td>
+              <td>多云转晴</td>
+              <td>19°C~26°C</td>
+              <td>东北风转北风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月23<span>日</span></div></td>
+              <td><div class="xqi">周五</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>晴转多云</td>
+              <td>19°C~27°C</td>
+              <td>北风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月24<span>日</span></div></td>
+              <td><div class="xqi">周六</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>晴转阴</td>
+              <td>20°C~26°C</td>
+              <td>北风</td>
+              <td>3-4级转小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月25<span>日</span></div></td>
+              <td><div class="xqi">周日</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>阴转多云</td>
+              <td>20°C~27°C</td>
+              <td>北风</td>
+              <td>3-4级转小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月26<span>日</span></div></td>
+              <td><div class="xqi">周一</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>19°C~26°C</td>
+              <td>东北风转北风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月27<span>日</span></div></td>
+              <td><div class="xqi">周二</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>19°C~28°C</td>
+              <td>东北风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月28<span>日</span></div></td>
+              <td><div class="xqi">周三</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>18°C~26°C</td>
+              <td>东北风转北风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">9月29<span>日</span></div></td>
+              <td><div class="xqi">周四</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+          
+2000
+    <td>18°C~26°C</td>
+              <td>东北风转北风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            
+            <tr>
+              <td><div class="riqi">9月30<span>日</span></div></td>
+              <td><div class="xqi">周五</div></td>
+              <td><img src="/Images/weather/d07.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>小雨转多云</td>
+              <td>20°C~24°C</td>
+              <td>东北风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月01<span>日</span></div></td>
+              <td><div class="xqi">周六</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>多云</td>
+              <td>23°C~30°C</td>
+              <td>南风转东南风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月02<span>日</span></div></td>
+              <td><div class="xqi">周日</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>多云转阴</td>
+              <td>24°C~30°C</td>
+              <td>西北风转东风</td>
+              <td>小于3级转小于4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月03<span>日</span></div></td>
+              <td><div class="xqi">周一</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>晴转多云</td>
+              <td>25°C~32°C</td>
+              <td>东南风转北风</td>
+              <td>3-4级转小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月04<span>日</span></div></td>
+              <td><div class="xqi">周二</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>21°C~26°C</td>
+              <td>北风转东南风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月05<span>日</span></div></td>
+              <td><div class="xqi">周三</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>阴转多云</td>
+              <td>22°C~28°C</td>
+              <td>西南风转西北风</td>
+              <td>3-4级转小于5级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月06<span>日</span></div></td>
+              <td><div class="xqi">周四</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n00.gif" width="25" height="25" /></td>
+              <td>阴转晴</td>
+              <td>21°C~26°C</td>
+              <td>南风转东南风</td>
+              <td>小于3级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月07<span>日</span></div></td>
+              <td><div class="xqi">周五</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n00.gif" width="25" height="25" /></td>
+              <td>多云转晴</td>
+              <td>20°C~27°C</td>
+              <td>东风转东南风</td>
+              <td>小于4级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月08<span>日</span></div></td>
+              <td><div class="xqi">周六</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>晴转多云</td>
+              <td>20°C~28°C</td>
+              <td>西北风转东南风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月09<span>日</span></div></td>
+              <td><div class="xqi">周日</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>晴转阴</td>
+              <td>21°C~27°C</td>
+              <td>西北风转东南风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月10<span>日</span></div></td>
+              <td><div class="xqi">周一</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>阴转多云</td>
+              <td>22°C~29°C</td>
+              <td>西南风转北风</td>
+              <td>小于5级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月11<span>日</span></div></td>
+              <td><div class="xqi">周二</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>19°C~26°C</td>
+              <td>东风转西南风</td>
+              <td>小于3级转小于5级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月12<span>日</span></div></td>
+              <td><div class="xqi">周三</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>20°C~29°C</td>
+              <td>北风转东风</td>
+              <td>小于5级转3-4级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月13<span>日</span></div></td>
+              <td><div class="xqi">周四</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>20°C~28°C</td>
+              <td>南风转西风</td>
+              <td>3-4级转小于5级</td>
+            </tr>
+            
+            <tr>
+              <td><div class="riqi">10月14<span>日</span></div></td>
+              <td><div class="xqi">周五</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>18°C~26°C</td>
+              <td>东南风</td>
+              <td>小于3级转小于5级</td>
+            </tr>
+            
+            
+			            <tr>
+              <td><div class="riqi">10月15<span>日</span></div></td>
+              <td><div class="xqi">周六</div></td>
+              <td><img src="/Images/weather/d07.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>小雨转多云</td>
+              <td>20°C~24°C</td>
+              <td>东风转东南风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月16<span>日</span></div></td>
+              <td><div class="xqi">周日</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>多云</td>
+              <td>23°C~30°C</td>
+              <td>东南风</td>
+              <td>3-4级转小于3级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月17<span>日</span></div></td>
+              <td><div class="xqi">周一</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>多云转阴</td>
+              <td>26°C~32°C</td>
+              <td>北风转东风</td>
+              <td>小于5级转小于3级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月18<span>日</span></div></td>
+              <td><div class="xqi">周二</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>晴转多云</td>
+              <td>25°C~32°C</td>
+              <td>西南风转东风</td>
+              <td>3-4级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月19<span>日</span></div></td>
+              <td><div class="xqi">周三</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>阴</td>
+              <td>21°C~26°C</td>
+              <td>西风转西北风</td>
+              <td>3-4级转小于4级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月20<span>日</span></div></td>
+              <td><div class="xqi">周四</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>阴转多云</td>
+              <td>22°C~28°C</td>
+              <td>东风转东北风</td>
+              <td>小于4级转小于3级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月21<span>日</span></div></td>
+              <td><div class="xqi">周五</div></td>
+              <td><img src="/Images/weather/d02.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n00.gif" width="25" height="25" /></td>
+              <td>阴转晴</td>
+              <td>20°C~25°C</td>
+              <td>东风转西南风</td>
+              <td>3-4级转小于5级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月22<span>日</span></div></td>
+              <td><div class="xqi">周六</div></td>
+              <td><img src="/Images/weather/d01.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n00.gif" width="25" height="25" /></td>
+              <td>多云转晴</td>
+              <td>21°C~28°C</td>
+              <td>西南风转东风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月23<span>日</span></div></td>
+              <td><div class="xqi">周日</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n01.gif" width="25" height="25" /></td>
+              <td>晴转多云</td>
+              <td>20°C~28°C</td>
+              <td>西北风转东北风</td>
+              <td>小于5级转小于3级</td>
+            </tr>
+            			            <tr>
+              <td><div class="riqi">10月24<span>日</span></div></td>
+              <td><div class="xqi">周一</div></td>
+              <td><img src="/Images/weather/d00.gif" width="25" height="25" />&nbsp;<img src="/Images/weather/n02.gif" width="25" height="25" /></td>
+              <td>晴转阴</td>
+              <td>20°C~26°C</td>
+              <td>西南风转西北风</td>
+              <td>小于3级转3-4级</td>
+            </tr>
+                      </table>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+      <div class="xzsf_b"></div>
+    </div>
+    <div id="w_report">
+      <div class="lh">
+        <div class="lh_l">
+          <div class="lh_tt">
+            <h3>上海天气预报 - 整点天气情况</h3>
+          </div>
+        </div>
+      </div>
+      <div class="xzsf_t"></div>
+      <div class="xzsf_con">
+        <div class="rp_h">
+          <iframe width="650" scrolling="no" height="212" frameborder="0" style="border-bottom:1px #C2D0E7 solid;" src="/weather_flash.php?id=101020100"></iframe>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+      <div class="xzsf_b"></div>
+    </div>
+        <div id="w_report">
+      <div class="lh">
+        <div class="lh_l">
+          <div class="lh_tt">
+            <h3>上海同城天气预报 - 今天白天到夜间</h3>
+          </div>
+        </div>
+      </div>
+      <div class="xzsf_t"></div>
+      <div class="xzsf_con"> 
+ <a href="https://www.40tianqi.cn:443/shanghaihuangpu/" title="黄浦天气预报40天" target="_blank" class="zb"><span class="area">黄浦</span><span class="img"><img src="/Images/weather/d01.gif" width="24" height="24" /><img src="/Images/weather/n07.gif" width="24" height="24" /></span><span class="tmp">24°C~30°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/xuhui/" title="徐汇天气预报40天" target="_blank" class="zb"><span class="area">徐汇</span><span class="img"><img src="/Images/weather/d09.gif" width="24" height="24" /><img src="/Images/weather/n09.gif" width="24" height="24" /></span><span class="tmp">23°C~25°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/changningqu/" title="长宁天气预报40天" target="_blank" class="zb"><span class="area">长宁</span><span class="img"><img src="/Images/weather/d03.gif" width="24" height="24" /><img src="/Images/weather/n03.gif" width="24" height="24" /></span><span class="tmp">22°C~31°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/shanghaijingan/" title="静安天气预报40天" target="_blank" class="zb"><span class="area">静安</span><span class="img"><img src="/Images/weather/d10.gif" width="24" height="24" /><img src="/Images/weather/n08.gif" width="24" height="24" /></span><span class="tmp">23°C~26°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/shanghaiputuo/" title="普陀天气预报40天" target="_blank" class="zb"><span class="area">普陀</span><span class="img"><img src="/Images/weather/d23.gif" width="24" height="24" /><img src="/Images/weather/n21.gif" width="24" height="24" /></span><span class="tmp">22°C~27°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/hongkou/" title="虹口天气预报40天" target="_blank" class="zb"><span class="area">虹口</span><span class="img"><img src="/Images/weather/d07.gif" width="24" height="24" /><img src="/Images/weather/n01.gif" width="24" height="24" /></span><span class="tmp">22°C~26°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/yangpu/" title="杨浦天气预报40天" target="_blank" class="zb"><span class="area">杨浦</span><span class="img"><img src="/Images/weather/d11.gif" width="24" height="24" /><img src="/Images/weather/n08.gif" width="24" height="24" /></span><span class="tmp">23°C~26°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/minxing/" title="闵行天气预报40天" target="_blank" class="zb"><span class="area">闵行</span><span class="img"><img src="/Images/weather/d11.gif" width="24" height="24" /><img src="/Images/weather/n08.gif" width="24" height="24" /></span><span class="tmp">21°C~25°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/jiading/" title="嘉定天气预报40天" target="_blank" class="zb"><span class="area">嘉定</span><span class="img"><img src="/Images/weather/d07.gif" width="24" height="24" /><img src="/Images/weather/n01.gif" width="24" height="24" /></span><span class="tmp">21°C~25°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/songjiang/" title="松江天气预报40天" target="_blank" class="zb"><span class="area">松江</span><span class="img"><
+1000
+img src="/Images/weather/d09.gif" width="24" height="24" /><img src="/Images/weather/n09.gif" width="24" height="24" /></span><span class="tmp">22°C~25°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/shanghaiqingpu/" title="青浦天气预报40天" target="_blank" class="zb"><span class="area">青浦</span><span class="img"><img src="/Images/weather/d01.gif" width="24" height="24" /><img src="/Images/weather/n00.gif" width="24" height="24" /></span><span class="tmp">20°C~29°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/nanhui/" title="南汇天气预报40天" target="_blank" class="zb"><span class="area">南汇</span><span class="img"><img src="/Images/weather/d08.gif" width="24" height="24" /><img src="/Images/weather/n09.gif" width="24" height="24" /></span><span class="tmp">23°C~28°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/shanghaifengxian/" title="奉贤天气预报40天" target="_blank" class="zb"><span class="area">奉贤</span><span class="img"><img src="/Images/weather/d11.gif" width="24" height="24" /><img src="/Images/weather/n08.gif" width="24" height="24" /></span><span class="tmp">22°C~26°C</span></a> 
+ <a href="https://www.40tianqi.cn:443/chongming/" title="崇明天气预报40天" target="_blank" class="zb"><span class="area">崇明</span><span class="img"><img src="/Images/weather/d07.gif" width="24" height="24" /><img src="/Images/weather/n01.gif" width="24" height="24" /></span><span class="tmp">20°C~25°C</span></a> 
+        <div style="clear:both"></div>
+      </div>
+      <div class="xzsf_b"></div>
+    </div>
+        <div style="clear:both"></div>
+  </div>
+  <div id="bdr">         <div id="br_t"></div>
+    <div id="br_c">
+      <div id="lytq"> </div>
+      <div id="qxcs">
+        <div class="br_h" >
+          <div class="br_tt">
+            <h4>上海热门景点天气预报</h4>
+          </div>
+          <div class="br_more"><a href="/jingdian_shanghai/" target="_blank" title="更多上海景点天气">更多</a></div>
+        </div>
+        <div class="tu">
+          <ul>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/shanghaibowuguan/" title="上海博物馆天气预报40天" target="_blank">上海博物馆天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/shcsghzsg/" title="上海城市规划展示馆天气预报40天" target="_blank">上海城市规划展示馆天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/shanghaidongwuyuan/" title="上海动物园天气预报40天" target="_blank">上海动物园天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/yuyuan/" title="豫园天气预报40天" target="_blank">豫园天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/baiyunguan/" title="白云观天气预报40天" target="_blank">白云观天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/tianzifang/" title="田子坊天气预报40天" target="_blank">田子坊天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/lanxinxiyuanjiuzhi/" title="兰心戏院旧址天气预报40天" target="_blank">兰心戏院旧址天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/ljzzxld/" title="陆家嘴中心绿地天气预报40天" target="_blank">陆家嘴中心绿地天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/luxungongyuan/" title="鲁迅公园天气预报40天" target="_blank">鲁迅公园天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/shytnmjng/" title="上海犹太难民纪念馆天气预报40天" target="_blank">上海犹太难民纪念馆天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/shzrbwgshkjgfg/" t
+1000
+itle="上海自然博物馆(上海科技馆分馆)天气预报40天" target="_blank">上海自然博物馆(上海科技馆分馆)天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/dongfangmingzhuta/" title="东方明珠塔天气预报40天" target="_blank">东方明珠塔天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/daninglingshigongyuan/" title="大宁灵石公园天气预报40天" target="_blank">大宁灵石公园天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/gqgjslgy/" title="共青国家森林公园天气预报40天" target="_blank">共青国家森林公园天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/chuangyiyuan/" title="m50创意园天气预报40天" target="_blank">m50创意园天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/shanghai/hepinggongyuan/" title="和平公园天气预报40天" target="_blank">和平公园天气预报40天</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="br_b"> </div>
+        <div id="br_t"></div>
+    <div id="br_c">
+      <div id="lytq"> </div>
+      <div id="qxcs">
+        <div class="br_h" >
+          <div class="br_tt">
+            <h4>热门国际城市天气预报</h4>
+          </div>
+          <div class="br_more"><a href="/guoji/" target="_blank" title="更多国际城市天气预报">更多</a></div>
+        </div>
+        <div class="tu">
+          <ul>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/maliwuboer/" title="马里乌波尔天气预报40天" target="_blank">马里乌波尔天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/shouer/" title="首尔天气预报40天" target="_blank">首尔天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/mosike/" title="莫斯科天气预报40天" target="_blank">莫斯科天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/niuyue/" title="纽约天气预报40天" target="_blank">纽约天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/duolunduo/" title="多伦多天气预报40天" target="_blank">多伦多天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/dongjing/" title="东京天气预报40天" target="_blank">东京天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/mengtelier/" title="蒙特利尔天气预报40天" target="_blank">蒙特利尔天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/zyalsjz/" title="中央-阿拉斯加州天气预报40天" target="_blank">中央-阿拉斯加州天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/lundun/" title="伦敦天气预报40天" target="_blank">伦敦天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/hena/" title="河内天气预报40天" target="_blank">河内天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/xinxiboliya/" title="新西伯利亚天气预报40天" target="_blank">新西伯利亚天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/xiguipu/" title="西归浦天气预报40天" target="_blank">西归浦天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/wanxiang/" title="万象天气预报40天" target="_blank">万象天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/mangu/" title="曼谷天气预报40天" target="_blank">曼谷天气预报40天</a></li>
+            
+            <li> <
+da4
+a href="https://www.40tianqi.cn:443/guoji/batiya/" title="芭提雅天气预报40天" target="_blank">芭提雅天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/xindeli/" title="新德里天气预报40天" target="_blank">新德里天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/daka/" title="达卡天气预报40天" target="_blank">达卡天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/xini/" title="悉尼天气预报40天" target="_blank">悉尼天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/langsaisidun/" title="朗塞斯顿天气预报40天" target="_blank">朗塞斯顿天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/amusitedan/" title="阿姆斯特丹天气预报40天" target="_blank">阿姆斯特丹天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/tuluzi/" title="图卢兹天气预报40天" target="_blank">图卢兹天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/pingrang/" title="平壤天气预报40天" target="_blank">平壤天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/aokelan/" title="奥克兰天气预报40天" target="_blank">奥克兰天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/yakucike/" title="雅库茨克天气预报40天" target="_blank">雅库茨克天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/moerben/" title="墨尔本天气预报40天" target="_blank">墨尔本天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/jinbian/" title="金边天气预报40天" target="_blank">金边天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/yintelaken/" title="因特拉肯天气预报40天" target="_blank">因特拉肯天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/duchengshi/" title="都城市天气预报40天" target="_blank">都城市天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/bali/" title="巴黎天气预报40天" target="_blank">巴黎天气预报40天</a></li>
+            
+            <li> <a href="https://www.40tianqi.cn:443/guoji/bamo/" title="八莫天气预报40天" target="_blank">八莫天气预报40天</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="br_b"> </div>
+  </div>
+  <div class="clear"></div>
+</div><div id="right">
+  <div id="rcon">
+    <li><a href="https://www.40tianqi.cn:443"  target="_blank">天气预报40天</a>，网站版权所有 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://m.40tianqi.cn:443">手机版</a></li>
+    <p style="text-align:center">天气预报40天提供全国天气预报,旅游天气预报,国际天气预报,天气资讯 ,天气预报网数据来源中国天气预报网，天气预报查询仅供参考!</p>
+      </div>
+</div>
+<div style="display:none;"><script type="text/javascript" src="https://s19.cnzz.com/z_stat.php?id=1271641748&web_id=1271641748"></script></div></body>
+</html>
+
+0
+

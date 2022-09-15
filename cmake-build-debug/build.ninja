@@ -1,0 +1,283 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: weather_forecast
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/bytedance/CLionProjects/weather_forecast/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target weather_forecast
+
+
+#############################################
+# Order-only phony target for weather_forecast
+
+build cmake_object_order_depends_target_weather_forecast: phony || CMakeFiles/weather_forecast.dir
+
+build CMakeFiles/weather_forecast.dir/main.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/main.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/CParser.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/CParser.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/CParser.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/Document.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/Document.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/Document.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/Node.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/Node.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/Node.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/Object.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/Object.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/Object.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/QueryUtil.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/QueryUtil.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/QueryUtil.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/Selection.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/Selection.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/Selection.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/Selector.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/Selector.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/Selector.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/attribute.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/attribute.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/attribute.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/char_ref.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/char_ref.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/char_ref.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/error.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/error.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/error.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/parser.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/parser.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/parser.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/string_buffer.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/string_buffer.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/string_buffer.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/string_piece.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/string_piece.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/string_piece.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/tag.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/tag.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/tag.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/tokenizer.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/tokenizer.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/tokenizer.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/utf8.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/utf8.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/utf8.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/util.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/util.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/util.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/include/gumbo-parser/vector.c.o: C_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/include/gumbo-parser/vector.c || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/include/gumbo-parser/vector.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/include/gumbo-parser
+
+build CMakeFiles/weather_forecast.dir/src/HttpsUtil.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/src/HttpsUtil.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/src/HttpsUtil.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/src
+
+build CMakeFiles/weather_forecast.dir/src/Weather.cpp.o: CXX_COMPILER__weather_forecast_Debug /Users/bytedance/CLionProjects/weather_forecast/src/Weather.cpp || cmake_object_order_depends_target_weather_forecast
+  DEP_FILE = CMakeFiles/weather_forecast.dir/src/Weather.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  INCLUDES = -isystem /usr/local/opt/openssl/include
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  OBJECT_FILE_DIR = CMakeFiles/weather_forecast.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target weather_forecast
+
+
+#############################################
+# Link the executable ../output/weather_forecast
+
+build ../output/weather_forecast: CXX_EXECUTABLE_LINKER__weather_forecast_Debug CMakeFiles/weather_forecast.dir/main.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/CParser.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/Document.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/Node.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/Object.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/QueryUtil.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/Selection.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/Selector.cpp.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/attribute.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/char_ref.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/error.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/parser.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/string_buffer.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/string_piece.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/tag.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/tokenizer.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/utf8.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/util.c.o CMakeFiles/weather_forecast.dir/include/gumbo-parser/vector.c.o CMakeFiles/weather_forecast.dir/src/HttpsUtil.cpp.o CMakeFiles/weather_forecast.dir/src/Weather.cpp.o | /usr/local/opt/openssl/lib/libcrypto.dylib /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  LINK_LIBRARIES = /usr/local/opt/openssl/lib/libcrypto.dylib  /usr/local/opt/openssl/lib/libssl.dylib  /usr/local/opt/openssl/lib/libcrypto.dylib
+  OBJECT_DIR = CMakeFiles/weather_forecast.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../output/weather_forecast
+  TARGET_PDB = weather_forecast.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bytedance/CLionProjects/weather_forecast/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bytedance/CLionProjects/weather_forecast/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/bytedance/CLionProjects/weather_forecast -B/Users/bytedance/CLionProjects/weather_forecast/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build weather_forecast: phony ../output/weather_forecast
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/bytedance/CLionProjects/weather_forecast/cmake-build-debug
+
+build all: phony ../output/weather_forecast
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindOpenSSL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPkgConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindOpenSSL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPkgConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
