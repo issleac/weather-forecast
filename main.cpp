@@ -13,11 +13,9 @@ void report(std::vector<Weather>& ve) {
 //    of.open("../output/test.csv", std::ios::out | std::ios::trunc);
     of.open("../output/test.xlsx", std::ios::out | std::ios::trunc);
     of<<"日期"<<"\t"<<"星期"<<"\t"<<"天气现象"<<"\t"<<"气温"<<"\t"<<"风向"<<"\t"<<"风力"<<"\n";
-//    for(auto v: ve){
-//        v.to_execl(of);
-//    }
-    for(int i=0;i<5;i++)
-        ve[i].to_execl(of);
+    for(auto v: ve){
+        v.to_execl(of);
+    }
     of.close();
 }
 
